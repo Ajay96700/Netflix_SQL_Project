@@ -27,3 +27,4 @@ Key Goals:
  - Analyze the popularity of documentaries on Netflix.
  - Categorize content based on keywords like "Kill" and "Violence" to label content as "Bold" or "Good".
  - Identify all movies or shows directed by specific directors or featuring certain actors like Salman Khan.
+
