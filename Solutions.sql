@@ -1,6 +1,6 @@
 Schema
 	
-```SQL
+```sql
 Create table Netflix
 (
 	show_id	varchar (6),
