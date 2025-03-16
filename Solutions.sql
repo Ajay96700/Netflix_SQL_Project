@@ -55,8 +55,6 @@ LIMIT 5
 
 --5. Identify the longest movie?
 
----Work on split_part function and Regular Expressions
-
 with cte as
 (select type,
 	title,
