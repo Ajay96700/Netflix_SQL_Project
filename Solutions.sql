@@ -20,10 +20,11 @@ Create table Netflix
 
 - 1. Count the number of movies vs tv shows
 
-select type, count(1) as Cnt
+```SQL
+	select type, count(1) as Cnt
 from netflix
 group by type
-
+```
 -- 2. Find the most common rating for movies and tv shows
 
 select type, rating
