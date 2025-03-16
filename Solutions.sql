@@ -1,6 +1,5 @@
 Schema
 	
-```sql
 Create table Netflix
 (
 	show_id	varchar (6),
@@ -16,15 +15,13 @@ Create table Netflix
 	listed_in varchar (100),
 	description varchar (300)
 );
-```
 
 - 1. Count the number of movies vs tv shows
 
-```SQL
-	select type, count(1) as Cnt
+select type, count(1) as Cnt
 from netflix
 group by type
-```
+
 -- 2. Find the most common rating for movies and tv shows
 
 select type, rating
