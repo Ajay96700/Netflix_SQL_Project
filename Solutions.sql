@@ -1,3 +1,6 @@
+Schema
+	
+```SQL
 Create table Netflix
 (
 	show_id	varchar (6),
@@ -13,11 +16,7 @@ Create table Netflix
 	listed_in varchar (100),
 	description varchar (300)
 );
-
-select *
-from netflix
-
--- 15 Business problesm
+```
 
 - 1. Count the number of movies vs tv shows
 
