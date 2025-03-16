@@ -28,3 +28,20 @@ Key Goals:
  - Categorize content based on keywords like "Kill" and "Violence" to label content as "Bold" or "Good".
  - Identify all movies or shows directed by specific directors or featuring certain actors like Salman Khan.
 
+'''SQL
+Create table Netflix
+(
+	show_id	varchar (6),
+	type varchar (10),
+	title varchar (150),
+	director varchar (210),
+	casts varchar (1000),
+	country varchar (150),
+	date_added varchar (50),
+	release_year Int,
+	rating varchar (10),
+	duration varchar (15),
+	listed_in varchar (100),
+	description varchar (300)
+);
+'''
