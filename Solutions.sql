@@ -1,5 +1,3 @@
-Drop table if exists netflix;
-
 Create table Netflix
 (
 	show_id	varchar (6),
